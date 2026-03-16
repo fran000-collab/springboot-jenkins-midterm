@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/springboot-jenkins-midterm.git'
+                git 'https://github.com/fran000-collab/springboot-jenkins-midterm.git'
             }
         }
 
