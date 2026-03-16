@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './mvnw clean package'
+                sh 'mvn clean package'
             }
         }
         stage('Archive Artifact') {
